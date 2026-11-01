@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>පුස්තකාලය | සපුගස්කන්ද මහා විද්‍යාලය</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@400;600&family=Noto+Serif+Sinhala:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <img src="images/crest.png" alt="සපුගස්කන්ද මහා විද්‍යාලයේ ලාංඡනය" class="crest" width="56" height="74">
+      <div>
+        <p class="school">සපුගස්කන්ද මහා විද්‍යාලය</p>
+        <h1>පාසල් පුස්තකාලය</h1>
+      </div>
+      <nav>
+        <a href="#search">පොත් සොයන්න</a>
+        <a href="#hours">විවෘත වේලාවන්</a>
+        <a href="#rules">නීති රීති</a>
+        <a href="#principal">විදුහල්පති</a>
+        <a href="#contact">අප අමතන්න</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div>
+          <h2>කියවන්න. ඉගෙන ගන්න. වැඩෙන්න.</h2>
+          <p>අපගේ පාසල් පුස්තකාලයට සාදරයෙන් පිළිගනිමු. ශිෂ්‍ය, ගුරුවරු සහ දෙමාපියන් සියලුදෙනාටම විවෘතයි.</p>
+        </div>
+        <img src="images/school.jpg" alt="සපුගස්කන්ද මහා විද්‍යාලයේ ගොඩනැගිල්ල" class="hero-photo" width="1000" height="403">
+      </div>
+    </section>
+
+    <section id="search" class="wrap block">
+      <h2>පොත් සොයන්න</h2>
+      <input type="search" id="q" placeholder="පොතේ නම හෝ කතුවරයා ටයිප් කරන්න" aria-label="පොත් සොයන්න">
+      <table>
+        <thead>
+          <tr><th>පොතේ නම</th><th>කතුවරයා</th><th>වර්ගය</th><th>අංකය</th></tr>
+        </thead>
+        <tbody id="results"></tbody>
+      </table>
+      <p id="empty" hidden>ගැලපෙන පොතක් හමු නොවීය.</p>
+    </section>
+
+    <section id="hours" class="wrap block two-col">
+      <div class="panel">
+        <h2>විවෘත වේලාවන්</h2>
+        <p><strong>සඳුදා – සිකුරාදා</strong><br>පෙ.ව. 7.30 – ප.ව. 2.00</p>
+        <p>සෙනසුරාදා, ඉරිදා, පොහොය දින සහ රජයේ නිවාඩු දිනවල පුස්තකාලය වසා තබයි.</p>
+      </div>
+      <div class="panel">
+        <h2>සාමාජිකත්වය</h2>
+        <p>පුස්තකාලයෙන් පොත් ලබා ගැනීමට සාමාජික පත්‍රයක් අවශ්‍ය වේ. අයදුම්පත ලබා ගැනීමට පුස්තකාලාධිපතිනියට කතා කරන්න.</p>
+      </div>
+    </section>
+
+    <section id="rules" class="wrap block">
+      <h2>නීති රීති</h2>
+      <ol>
+        <li>පුස්තකාලය තුළ නිහඬව සිටින්න.</li>
+        <li>පොත් ආරක්ෂා කර ගන්න. පිටු නොඉරන්න, සටහන් නොකරන්න.</li>
+        <li>පොතක් ගත් දින සිට දින 14 ක් ඇතුළත ආපසු භාර දෙන්න.</li>
+        <li>ආහාර පාන පුස්තකාලයට ගෙන ඒම තහනම්ය.</li>
+      </ol>
+    </section>
+
+    <section id="principal" class="wrap block principal">
+      <img src="images/principal.jpg" alt="විදුහල්පති" width="600" height="739">
+      <div>
+        <h2>විදුහල්පති</h2>
+        <p><strong>විදුහල්පතිතුමාගේ නම මෙතැන ලියන්න</strong></p>
+        <p>විදුහල්පතිතුමාගේ පණිවිඩය මෙතැන ලියන්න. කියවීමේ පුරුද්ද ශිෂ්‍යයන්ගේ දැනුම සහ චරිතය දියුණු කරන බව සඳහන් කළ හැකිය.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="wrap block">
+      <h2>අප අමතන්න</h2>
+      <p>පුස්තකාලාධිපති: <strong>නම මෙතැන ලියන්න</strong></p>
+      <p>දුරකථන: 000 000 0000</p>
+      <p>ලිපිනය: පාසලේ ලිපිනය මෙතැන ලියන්න</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© 2026 සපුගස්කන්ද මහා විද්‍යාලය – පාසල් පුස්තකාලය</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
